@@ -1,4 +1,4 @@
-Group [all]: Includes all servers for collective management.
-172.31.47.231 #clientA: Server with IP address 10.0.2.15, nicknamed "clientA".
-172.31.42.198 #ClientB: Server with IP address 10.0.2.5, nicknamed "ClientB".
-localhost ansible_connection=local: my current machine, connected directly without SSH.
+[all]
+172.31.47.231
+172.31.42.198
+
