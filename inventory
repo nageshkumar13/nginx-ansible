@@ -1,5 +1,4 @@
-all:
-  hosts:
-    172.31.42.198:
-    172.31.47.231:
-    localhost ansible_connection=local: my current machine, connected directly without SSH
+[all]
+172.31.42.198
+172.31.47.231
+localhost ansible_connection=local
