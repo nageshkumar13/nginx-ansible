@@ -1,4 +1,4 @@
 [all]
 172.31.47.231
 172.31.42.198
-
+localhost ansible_connection=local: my current machine, connected directly without SSH.
